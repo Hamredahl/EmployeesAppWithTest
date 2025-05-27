@@ -55,7 +55,7 @@ public class EmployeesControllerTests
             Name = "Mock Mock",
             Email = "mock@mock.com",
             BotCheck = 2
-        };
+        }; 
 
         var context = new ValidationContext(model);
         var results = new List<ValidationResult>();
